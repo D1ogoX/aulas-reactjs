@@ -9,11 +9,14 @@ import ComponenteQuatro from "./Components/ComponenteQuatro"
 import ComponenteSeis from "./Components/ComponenteSeis"
 import ComponenteSete from "./Components/ComponenteSete"
 import ComponenteOito from "./Components/ComponenteOito"
+import ComponenteNove from "./Components/ComponenteNove"
 
 function App()
 {
     return (
         <>
+            <ComponenteNove titulo="Componente nove" valor="Diogo"/>
+
             <ComponenteOito titulo="Componente oito" valor={1}/>
 
             <ComponenteSete titulo="Componente sete" valor={1} />
