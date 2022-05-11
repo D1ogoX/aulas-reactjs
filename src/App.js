@@ -10,11 +10,17 @@ import ComponenteSeis from "./Components/ComponenteSeis"
 import ComponenteSete from "./Components/ComponenteSete"
 import ComponenteOito from "./Components/ComponenteOito"
 import ComponenteNove from "./Components/ComponenteNove"
+import ComponenteDez from "./Components/ComponenteDez"
+import ComponentePai from "./Components/Comunicacao_direta/ComponentePai"
 
 function App()
 {
     return (
         <>
+            <ComponentePai titulo="Comunicação direta"/>
+
+            <ComponenteDez titulo="Componente dez" corTexto="red"/>
+
             <ComponenteNove titulo="Componente nove" valor="Diogo"/>
 
             <ComponenteOito titulo="Componente oito" valor={1}/>
